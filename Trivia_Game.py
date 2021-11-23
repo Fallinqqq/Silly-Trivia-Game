@@ -1,5 +1,5 @@
 Linz = '+=+=' * 10
-print('Hello, Welcome to Girlfriend trivia!')
+print('Hello, Welcome to the Ultimate 4 question Trivia!')
 print(Linz)
 
 Linz = '+=+=' * 10
@@ -10,41 +10,41 @@ total_q = 4
 
 
 if answer == 'yes':
-    answer = input('1. What is my full name? ')
-    if answer == 'Grace Kathryn Foster':
+    answer = input('1. Who is Mark Zuckerberg? ')
+    if answer == 'A Lizard':
         score += 1
         print('Correct')
     else:
         print('Incorrect')
 
-if answer == 'Grace Kathryn Foster':
-    answer = input('2. What is my favorite color? ')
-    if answer == 'Blue':
+if answer == 'A Lizard!? Duh!!':
+    answer = input('2. What goes on pizza? ')
+    if answer == 'Pineapple':
         score += 1
         print('Correct')
     else:
         print('Incorrect')
 
-if answer == 'Blue':
-    answer = input('3. What is my favorite foodd? ')
-    if answer == 'Pizza':
+if answer == 'Pineapple':
+    answer = input('3. What make an orange be an orange? ')
+    if answer == 'Citrus Red 2':
         score += 1
         print('Correct')
     else:
         print('Incorrect')
 
-if answer == 'Pizza':
-    answer = input('4. Who do I love the most? ')
-    if answer == 'You':
+if answer == 'Citrus Red 2':
+    answer = input('4. What is Gordon Ramseys favorite sauce? ')
+    if answer == 'Lamb Sauce':
         score += 1
         print('')
     else:
-        print('Ah.. You Silly Goose... I love you! <3')
+        print('Ah.. Lamb Sauce, you Idiot!')
 
 Linz = '+=+=' * 10
-print('\nThank you for participating in this Silly GirlFriend Trivia Game, you got', score, "questions correct.")
+print('\nThank you for participating in this Silly 4 question Trivia Game, you got', score, "questions correct.")
 you = (score/total_q) * 100
 
 print("You:", str(you) + '%')
-print("Bye Bye!")
+print("Bye, Bye!")
 print(Linz)
